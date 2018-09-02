@@ -59,19 +59,26 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+	#learnMoreP{
+		margin: auto;
+		text-align: center;
+	}
 	#learnMore {
-		font-size: 20px;
-		width: 110px;
-		height: 30px;
+		font-size: 50px;
+		width: 300px;
+		height: 90px;
+		top: 400px;
 	}
 	#content {
 		left: 5%;
+		top: 8%;
 	}
     #name {
-      font-size: 50px;
+      font-size: 100px;
     }
     #description {
-      font-size: 20px;
+      top: 200px;
+      font-size: 40px;
     }
     
 }
