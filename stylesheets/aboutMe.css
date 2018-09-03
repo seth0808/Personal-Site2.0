@@ -1,0 +1,208 @@
+body {
+	margin: 0;
+	background-color: rgb(0, 0, 30)
+	
+}
+
+p {
+	color: black;
+	font-family: 'Kosugi', sans-serif;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+}
+
+
+
+#loading {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	background-color: rgb(0, 0, 30);
+}
+#name {
+	position: absolute;
+	top: -20px;
+	left: 10px;
+	width: 170px;
+	height: 35px;
+	font-family: 'Kosugi', sans-serif;
+	color: rgb(240,240, 240);
+	font-size: 30px;
+	text-align: left;
+}
+
+canvas {
+	position: absolute;
+	background-color: rgba(0, 0, 30, 1);
+}
+
+#content {
+	position: absolute;
+	background-color: rgba(240, 240, 220, 1);
+	top: 100px;
+	left: 10%;
+	right: 10%;
+	bottom: 10%;
+	overflow: scroll;
+}
+
+#entrepreneur {
+	position: relative;
+	margin: 30px;
+	height: 300px;
+	overflow: hidden;
+	background-image: url("../assets/entrepreneurship.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 50% -200px;
+	
+}
+#entrepreneurP {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 50%;
+	background-color: rgba(240, 240, 220, 0.9);
+	color: black;
+	font-size: 40px;
+}
+#entrepreneurSubP {
+	position: absolute;
+	overflow: scroll;
+	height: 60px;
+	top: 230px;
+	left: 0px;
+	right: 0px;
+	color: black;
+	font-size: 20px;
+}
+#maryland {
+	position: relative;
+	margin: 30px;
+	height: 300px;
+	overflow: hidden;
+	background-image: url("../assets/maryland.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 50% -400px;
+	
+}
+#marylandP {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 50%;
+	background-color: rgba(240, 240, 220, 0.9);
+	color: black;
+	font-size: 40px;
+}
+#marylandSubP {
+	position: absolute;
+	overflow: scroll;
+	height: 60px;
+	top: 230px;
+	left: 0px;
+	right: 0px;
+	color: black;
+	font-size: 20px;
+}
+#akpsi {
+	position: relative;
+	margin: 30px;
+	height: 300px;
+	overflow: hidden;
+	background-image: url("../assets/akpsi.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 50% -300px;
+	
+}
+#akpsiP {
+
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 50%;
+	background-color: rgba(240, 240, 220, 0.9);
+	color: black;
+	font-size: 40px;
+}
+#akpsiSubP {
+	position: absolute;
+	overflow: scroll;
+	height: 60px;
+	top: 230px;
+	left: 0px;
+	right: 0px;
+	color: black;
+	font-size: 20px;
+}
+#dev {
+	position: relative;
+	margin: 30px;
+	height: 300px;
+	overflow: hidden;
+	background-image: url("../assets/dev.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 50% -250px;
+	
+}
+#devP {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 50%;
+	background-color: rgba(240, 240, 220, 0.9);
+	color: black;
+	font-size: 40px;
+}
+#devSubP {
+	position: absolute;
+	overflow: scroll;
+	height: 60px;
+	top: 230px;
+	left: 0px;
+	right: 0px;
+	color: black;
+	font-size: 20px;
+}
+#travel {
+	position: relative;
+	margin: 30px;
+	height: 300px;
+	overflow: hidden;
+	background-image: url("../assets/travel.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 50% -200px;
+	
+}
+#travelP {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 50%;
+	background-color: rgba(240, 240, 220, 0.9);
+	color: black;
+	font-size: 40px;
+}
+#travelSubP {
+	position: absolute;
+	overflow: scroll;
+	height: 60px;
+	top: 230px;
+	left: 0px;
+	right: 0px;
+	color: black;
+	font-size: 20px;
+}
