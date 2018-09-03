@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	background-image: url("../assets/background.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+#name {
+	position: absolute;
+	color: rgb(70, 76, 47); 
+	font-size: 60px; 
+	font-family: 'Montserrat', sans-serif;
+	
+	top: -50px;
+	z-index: -1;
+	width: 1000px;
+}
+
+#content {
+	position: absolute; 
+	z-index: -1;
+	
+	left: 10%; 
+	top: 0px;
+	height: 100%;
+	width: 90%;
+
+}
+
+#canvas {
+	position: absolute;
+	z-index: 2;
+}
+#description {
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	z-index: -1;
+}
+
+#learnMore {
+	font-family: 'M PLUS 1p', sans-serif;
+	background-color: rgb(111, 119, 109);
+	color: rgb(240, 240, 240);
+	padding: 10px;
+	border: 2px solid rgba(111, 119, 109, 0);
+	border-radius: 2px;
+	position: absolute;
+	left: 0%;
+	top: 160px;
+}
+
+#learnMore:hover {
+	background-color: rgba(111, 119, 109, 0);
+	border: 2px solid rgba(111, 119, 109, 0.25);
+	color: rgb(10, 10, 10);
+	cursor: pointer;
+}
