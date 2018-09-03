@@ -86,7 +86,7 @@ canvas {
 	margin: 30px;
 	height: 300px;
 	overflow: hidden;
-	background-image: url("../assets/maryland.jpg");
+	background-image: url("../assets/Maryland.jpg");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: 50% -400px;
