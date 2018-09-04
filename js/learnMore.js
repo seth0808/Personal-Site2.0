@@ -6,16 +6,16 @@ window.mobilecheck = function() {
 
 if (mobilecheck()){
 	$("#videoOne").remove()
-	$("#divOne").css("background-image", "url('assets/dogs.jpg')");
+	$("#divOne").css("background-image", "url('assets/walking.jpg')");
 	$("#divOne").css("background-repeat", "no-repeat");
 	$("#divOne").css("background-attachment", "scroll");
-	$("#divOne").css("background-position", "50% 0px");
-
+	$("#divOne").css("background-position", "35% -600px");
+	
 	$("#videoTwo").remove()
-	$("#divTwo").css("background-image", "url('assets/walking.jpg')");
+	$("#divTwo").css("background-image", "url('assets/christmas.jpg')");
 	$("#divTwo").css("background-repeat", "no-repeat");
 	$("#divTwo").css("background-attachment", "scroll");
-	$("#divTwo").css("background-position", "50% -600px");
+	$("#divTwo").css("background-position", "35% 0px");
 
 	$("#videoThree").remove()
 	$("#divThree").css("background-image", "url('assets/learning.jpg')");
