@@ -61,6 +61,9 @@ if (mobilecheck()){
 $("#divOne").click(function() {
 	window.open("aboutMe.html", "_self");
 });
+$("#divOne").click(function() {
+	window.open("projects.html", "_self");
+});
 
 function loaded() {
 	$("#loading").css("z-index", "-1");
