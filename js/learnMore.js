@@ -61,7 +61,7 @@ if (mobilecheck()){
 $("#divOne").click(function() {
 	window.open("aboutMe.html", "_self");
 });
-$("#divOne").click(function() {
+$("#divTwo").click(function() {
 	window.open("projects.html", "_self");
 });
 
