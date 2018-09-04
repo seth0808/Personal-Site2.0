@@ -46,7 +46,7 @@ if (ua.indexOf('safari') != -1 && ua.indexOf('chrome') <= -1 ){
 			this.y = y;
 			this.radius = 100;
 			this.set = 1;
-			this.xVel = 3;
+			this.xVel = 5;
 			this.yVel = 0;
 			this.yAcc = 1;
 			this.counter = 0;
