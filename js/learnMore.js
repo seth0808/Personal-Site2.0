@@ -4,7 +4,7 @@ window.mobilecheck = function() {
   return check;
 };
 
-if (true || mobilecheck()){
+if (mobilecheck()){
 	$("#videoOne").remove()
 	$("#divOne").css("background-image", "url('assets/dogs.jpg')");
 	$("#divOne").css("background-repeat", "no-repeat");
