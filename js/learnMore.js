@@ -9,7 +9,7 @@ if (mobilecheck()){
 	$("#divOne").css("background-image", "url('assets/walking.jpg')");
 	$("#divOne").css("background-repeat", "no-repeat");
 	$("#divOne").css("background-attachment", "scroll");
-	$("#divOne").css("background-position", "35% -300px");
+	$("#divOne").css("background-position", "35% 0px");
 	
 	$("#videoTwo").remove()
 	$("#divTwo").css("background-image", "url('assets/christmas.jpg')");
